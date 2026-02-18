@@ -161,7 +161,7 @@ The __public__ component __should__ have semantic versioned dependencies.
   ]
 }
 ```
-  If most of your components originate from Bitbucket, you should provide a remotes array with `'bitbucket'` as the _first_ element. This will increase the performance. For more information checkout the [remote.js](https://github.com/componentjs/remotes.js) repository.
+  If most of your components originate from Bitbucket, you should provide a remotes array with `'bitbucket'` as the _first_ element. This will increase the performance. For more information checkout the [remote.js](https://github.com/Unity-Billal-mesloub/remotes.js) repository.
 
 
 ## .paths
@@ -181,7 +181,7 @@ The __public__ component __should__ have semantic versioned dependencies.
 
   The templates array __MUST__ provide the contents of each file as a require-able module.
   For example the following must provide the HTML string via `require('./user.html')`.
-  If you're using `component-build` the files will be converted automatically using the [string plugin](https://github.com/component/builder2.js/blob/master/docs/scripts.md#string) of builder2.
+  If you're using `component-build` the files will be converted automatically using the [string plugin](https://github.com/Unity-Billal-mesloub/builder2.js/blob/main/docs/scripts.md#string) of builder2.
 
 ```json
 {
